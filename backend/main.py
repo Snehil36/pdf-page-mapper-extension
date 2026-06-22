@@ -2,7 +2,7 @@ from find_toc import find_toc
 from parse_result import parse_response
 
 def main():
-    pdf_path = "/Users/snehil/Documents/pdf_page_editor/python_prototype/test_pdfs/Gilbert Strang - Introduction to Linear Algebra 6ed.pdf"
+    pdf_path = ""
     
     print("Finding TOC...")
     response_text = find_toc(pdf_path)
